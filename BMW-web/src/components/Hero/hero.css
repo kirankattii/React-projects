@@ -1,0 +1,74 @@
+.hero{
+  margin: 0px 120px;
+  margin-top: 150px;
+}
+.hero-text{
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 50px;
+  /* display: flex;
+  flex-direction: column; */
+}
+.hero-explore{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  width: fit-content;
+  margin-top: 50px;
+  padding: 1px 8px;
+  padding-left: 25px;
+  border-radius: 60px;
+  background: white;
+  cursor: pointer;
+}
+.imgg{
+  background: rgb(255, 90, 30);
+  padding: 5px 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.hero-explore p{
+  color: #292929;
+  font-size: 15px;
+  font-weight: 500;
+}
+.hero-dot-play{
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-dots{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.hero-dot{
+  width: 15px;
+  height: 15px;
+  background: #FFF;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hero-dot.orange{
+  background: orangered;
+}
+.hero-play{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.hero-play p{
+  color: #FFF;
+  font-size: 16px;
+}
+.play{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 10px;
+  background: #fff;
+  cursor: pointer;
+}
